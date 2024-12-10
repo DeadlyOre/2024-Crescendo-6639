@@ -1,0 +1,43 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 0.76,
+      "y": 6.72
+    },
+    "rotation": 58.56694076543092
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 5.0
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AmpSideStart"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AShootCommand"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AmpSideLeave"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}
