@@ -1,0 +1,148 @@
+{
+  "version": 1.0,
+  "startingPose": {
+    "position": {
+      "x": 1.39,
+      "y": 5.55
+    },
+    "rotation": 0
+  },
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "A1 Path 1"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AShootCommand"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "A1 Path 2"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AIntakeCommand"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.1
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "A1 Path 3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AShootCommand"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.2
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "A1 Path 4"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AIntakeCommand"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "A1 Path 5"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.06
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AShootCommand"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "path",
+                "data": {
+                  "pathName": "A1 Path 6"
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "AIntakeCommand"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "A1 Path 7"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "AShootCommand"
+          }
+        }
+      ]
+    }
+  },
+  "folder": null,
+  "choreoAuto": false
+}

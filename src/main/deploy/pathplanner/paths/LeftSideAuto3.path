@@ -1,0 +1,52 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.167383151808911,
+        "y": 0.7715504152812825
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.81761363022093,
+        "y": 0.7406883986755604
+      },
+      "isLocked": false,
+      "linkedName": "P2"
+    },
+    {
+      "anchor": {
+        "x": 1.5,
+        "y": 4.2
+      },
+      "prevControl": {
+        "x": 1.285153447499878,
+        "y": 0.5040796046504367
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "LeftSideAutoP1"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.0,
+    "maxAcceleration": 3.0,
+    "maxAngularVelocity": 57.3,
+    "maxAngularAcceleration": 57.3
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -26.680000000000007,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "LeftSideAuto",
+  "previewStartingState": {
+    "rotation": 0,
+    "velocity": 0
+  },
+  "useDefaultConstraints": true
+}
